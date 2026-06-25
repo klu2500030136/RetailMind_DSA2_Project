@@ -1,0 +1,5 @@
+101,Laptop,Electronics,55000.0,10,BC101
+102,Mouse,Accessories,500.0,50,BC102
+103,Keyboard,Accessories,1200.0,25,BC103
+105,phone,Electronics,49999.0,22,BC105
+106,smart watch,Electronics,10000.0,32,BC106

@@ -1,0 +1,4 @@
+Festival Sale,1,4,50000
+Weekend Offer,3,5,30000
+Flash Sale,0,6,25000
+Electronics Discount,5,7,45000
