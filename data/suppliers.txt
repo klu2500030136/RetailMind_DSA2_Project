@@ -1,0 +1,8 @@
+1,Tech Distributors,Hyderabad
+2,Digital Hub,Bangalore
+3,Gadget World,Mumbai
+4,Smart Supply Co.,Chennai
+5,Future Electronics,Delhi
+6,Prime Parts,Pune
+7,Electro Mart,Kolkata
+8,GreenTech Suppliers,Ahmedabad

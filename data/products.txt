@@ -1,0 +1,15 @@
+101,Laptop,Electronics,55000.0,10,BC101
+102,Mouse,Accessories,500.0,50,BC102
+103,Keyboard,Accessories,1200.0,25,BC103
+104,Monitor,Electronics,18000.0,8,BC104
+105,Smartphone,Electronics,49999.0,22,BC105
+106,Smart Watch,Electronics,10000.0,32,BC106
+107,Headphones,Accessories,2500.0,40,BC107
+108,USB Hub,Accessories,800.0,60,BC108
+109,Webcam,Electronics,3500.0,15,BC109
+110,Printer,Electronics,12000.0,5,BC110
+111,SSD Drive,Storage,4500.0,30,BC111
+112,Pen Drive 64GB,Storage,700.0,80,BC112
+113,Router,Networking,2800.0,20,BC113
+114,Speaker,Accessories,1800.0,35,BC114
+115,External HDD 1TB,Storage,5500.0,18,BC115
