@@ -162,15 +162,15 @@ public class RetailMindApp {
 ░░░░░     ░░░░░  ░░░░░░░░ ░░░░░ ░░░░ ░░░░░    ░░░░░     ░░░░░  ░░░░░░  ░░░░ ░░░░░   ░░░░░░░░
 """);
         System.out.println("1. Add Product");
-        System.out.println("2. Display Products (Sorted)");
-        System.out.println("3. Search Product (AVL)");
+        System.out.println("2. Display Products");
+        System.out.println("3. Search Product");
         System.out.println("4. Update Product");
         System.out.println("5. Delete Product");
         System.out.println("6. Display Categories");
-        System.out.println("7. Search Product using B-Tree");
-        System.out.println("8. Search Products by Price Range (B+ Tree)");
-        System.out.println("9. Sales Analytics (Segment Tree)");
-        System.out.println("10. Cumulative Revenue (Fenwick Tree)");
+        System.out.println("7. Multiway Search Product");
+        System.out.println("8. Search Products by Price Range");
+        System.out.println("9. Sales Analytics");
+        System.out.println("10. Cumulative Revenue");
         System.out.println("11. Register Customer");
         System.out.println("12. Display Customers");
         System.out.println("13. Purchase Product");
@@ -527,8 +527,8 @@ public class RetailMindApp {
         System.out.println("Supplier Network Menu");
         System.out.println("====================");
 
-        System.out.println("1. Add Supplier (Database)");
-        System.out.println("2. Add Supplier (Network)");
+        System.out.println("1. Add Supplier ");
+        System.out.println("2. Add Supplier ");
         System.out.println("3. Display Suppliers");
         System.out.println("4. Connect Suppliers");
         System.out.println("5. Display Supplier Network");
@@ -599,7 +599,7 @@ public class RetailMindApp {
      * Performs BFS traversal.
      */
     private void bfsTraversal() {
-        System.out.println("\nBFS Traversal");
+        System.out.println("\nSuppliers Level Traversal");
         String start = readRequiredText("Enter starting supplier: ");
 
         List<String> traversal = graphNetwork.breadthFirstTraversal(start);
@@ -615,7 +615,7 @@ public class RetailMindApp {
      * Performs DFS traversal.
      */
     private void dfsTraversal() {
-        System.out.println("\nDFS Traversal");
+        System.out.println("\nSuppliers Depth Traversal");
         String start = readRequiredText("Enter starting supplier: ");
 
         List<String> traversal = graphNetwork.depthFirstTraversal(start);
@@ -631,7 +631,7 @@ public class RetailMindApp {
      * Checks network connectivity.
      */
     private void checkConnectivity() {
-        System.out.println("\nCheck Connectivity");
+        System.out.println("\nCheck Suppliers Connectivity");
         String start = readRequiredText("Enter starting supplier: ");
 
         boolean connected = graphNetwork.isConnected(start);
@@ -646,7 +646,7 @@ public class RetailMindApp {
      * Detects cycles in the network.
      */
     private void detectCycles() {
-        System.out.println("\nDetect Cycles");
+        System.out.println("\nDetect Suppliers Cycles");
         boolean hasCycle = graphNetwork.detectCycle();
         if (hasCycle) {
             System.out.println("Cycle Detected in the network.");
@@ -725,10 +725,10 @@ public class RetailMindApp {
         System.out.println("Route Optimization Menu");
         System.out.println("====================");
 
-        System.out.println("1. Fastest Route (Dijkstra)");
-        System.out.println("2. Cheapest Routes (Bellman-Ford)");
-        System.out.println("3. All-Pairs Analysis (Floyd-Warshall)");
-        System.out.println("4. Delivery Scheduling (Topological Sort)");
+        System.out.println("1. Fastest Route ");
+        System.out.println("2. Cheapest Routes ");
+        System.out.println("3. All-Pairs Analysis ");
+        System.out.println("4. Delivery Scheduling ");
         System.out.println("5. Generate Route Report");
         System.out.println("6. Back to Supplier Network");
     }
@@ -737,7 +737,7 @@ public class RetailMindApp {
      * Finds fastest route using Dijkstra's algorithm.
      */
     private void fastestRoute() {
-        System.out.println("\nFastest Route (Dijkstra)");
+        System.out.println("\nFastest Route ");
         String source = readRequiredText("Enter source supplier: ");
         String destination = readRequiredText("Enter destination supplier: ");
 
@@ -767,7 +767,7 @@ public class RetailMindApp {
      * Finds cheapest routes using Bellman-Ford algorithm.
      */
     private void cheapestRoutes() {
-        System.out.println("\nCheapest Routes (Bellman-Ford)");
+        System.out.println("\nCheapest Routes ");
         String source = readRequiredText("Enter source supplier: ");
 
         Map<String, Double> distances = graphNetwork.bellmanFord(source);
@@ -794,7 +794,7 @@ public class RetailMindApp {
      * Performs all-pairs analysis using Floyd-Warshall algorithm.
      */
     private void allPairsAnalysis() {
-        System.out.println("\nAll-Pairs Analysis (Floyd-Warshall)");
+        System.out.println("\nAll-Pairs Analysis ");
         graphNetwork.generateShortestPathReport();
     }
 
@@ -802,7 +802,7 @@ public class RetailMindApp {
      * Generates delivery schedule using topological sort.
      */
     private void deliveryScheduling() {
-        System.out.println("\nDelivery Scheduling (Topological Sort)");
+        System.out.println("\nDelivery Scheduling ");
         graphNetwork.generateDeliverySchedule();
     }
 
@@ -825,11 +825,11 @@ public class RetailMindApp {
             System.out.println("\n==============================");
             System.out.println("Sorting & Ranking Menu");
             System.out.println("======================");
-            System.out.println("31. Sort Products by Revenue (Merge Sort)");
-            System.out.println("32. Sort Products by Popularity (Quick Sort)");
-            System.out.println("33. Display Top Selling Products (Heap Sort)");
-            System.out.println("34. Sort Products by Stock Quantity (Counting Sort)");
-            System.out.println("35. Sort Products by Barcode (Radix Sort)");
+            System.out.println("31. Sort Products by Revenue ");
+            System.out.println("32. Sort Products by Popularity ");
+            System.out.println("33. Display Top Selling Products ");
+            System.out.println("34. Sort Products by Stock Quantity ");
+            System.out.println("35. Sort Products by Barcode ");
             System.out.println("36. Generate Sorted Product Report");
             System.out.println("37. Generate Top Selling Report");
             System.out.println("38. Compare Sorting Algorithms");
@@ -883,10 +883,10 @@ public class RetailMindApp {
             System.out.println("\n==============================");
             System.out.println("Business Optimization Menu");
             System.out.println("==========================");
-            System.out.println("40. Schedule Promotions (Activity Selection)");
-            System.out.println("41. Optimize Shelf Space (Fractional Knapsack)");
-            System.out.println("42. Optimize Inventory Stock (0/1 Knapsack)");
-            System.out.println("43. Analyze Growth Trend (LIS)");
+            System.out.println("40. Schedule Promotions ");
+            System.out.println("41. Optimize Shelf Space ");
+            System.out.println("42. Optimize Inventory Stock ");
+            System.out.println("43. Analyze Growth Trend ");
             System.out.println("44. Generate Optimization Reports");
             System.out.println("45. Back");
             
