@@ -1,0 +1,20 @@
+========================================
+Supplier Network Analysis Report
+========================================
+Generated At: 2026-06-25 00:33:05
+Total Suppliers: 5
+Total Connections: 5
+Connectivity Status: Connected
+Cycle Status: No Cycle Found
+MST Cost: 190.00
+========================================
+Minimum Spanning Tree:
+========================================
+SupplierC -> SupplierD (20.00)
+SupplierA -> SupplierC (40.00)
+SupplierA -> SupplierB (50.00)
+SupplierC -> SupplierE (80.00)
+========================================
+Total MST Cost: 190.00
+========================================
+

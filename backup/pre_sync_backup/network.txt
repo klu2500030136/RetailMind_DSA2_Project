@@ -1,0 +1,6 @@
+SupplierA,SupplierB,50.0
+SupplierA,SupplierC,40.0
+SupplierA,SupplierZ,30.0
+SupplierC,SupplierD,20.0
+SupplierC,SupplierE,80.0
+SupplierB,SupplierD,60.0
